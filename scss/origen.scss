@@ -1,0 +1,43 @@
+/*esto es un comentario*/
+
+
+@import "encabezado";
+@import "carrusel";
+@import "footer";
+@import "varios";
+@import "transporte";
+@import "fotos";
+@import "email";
+@import "faq";
+@import "reparaciones";
+
+
+
+.logo{
+    position: absolute;    
+    top: 20px; 
+    left: 15px;
+    width: 80px;
+    height:80px;
+    display: inline;
+    transition: top 2s;   
+    .logo:hover{
+        top:80px ;   
+}
+}
+.whatsapp { 
+    position: absolute;    
+    top: 20px; 
+    right: 20px;
+    width: 60px;
+    height:60px;
+    display: inline;
+    border: solid 5px black;  
+    border-radius:90%;
+    position: fixed;
+    z-index: 10;
+    }
+    .clienHeight{
+        height: 22em;
+        width: 100%;
+    }

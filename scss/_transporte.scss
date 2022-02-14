@@ -1,0 +1,23 @@
+.trnsporteFoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .transporte{
+        width: 300px;
+        height: 300px;
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+.subte{
+    color: darkred;
+    text-align: center;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.input:focus{
+    transform: scale(1.5, 1.5);
+    margin-left: 110px          ;
+  }
