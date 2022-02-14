@@ -1,12 +1,13 @@
+@import "map";
 
 
 .encabezado{
-    background-image: linear-gradient( rgb(70, 113, 146), rgb(215, 217, 224));
+    background-image: map-get($estilos , colorPagina );
     h1{
         height: 3em;
-        font-size: 4.2em;     
+        font-size:  map-get($estilos , tamaño-h1 );     
         font-family: 'Spline Sans', sans-serif;      
-        color: aliceblue;
+        color: map-get($estilos , color );
         padding-top: 1em;
         text-shadow: 10px 10px 5px gray;
         padding-left: 30px;
@@ -15,8 +16,8 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-         color: aliceblue;         
-        font-size: 2.5em;    
+         color: map-get($estilos , color );         
+        font-size:  map-get($estilos , tamaño-h4 );    
         padding-top: 50px; 
         font-family: 'Ubuntu Mono', monospace;    
         animation-duration: 4s;
@@ -24,3 +25,6 @@
         animation-iteration-count: infinite;
     }
 }
+.clienHeight {
+    height: 22em;
+    width: 100%; }

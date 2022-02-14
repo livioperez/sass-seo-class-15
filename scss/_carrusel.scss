@@ -1,7 +1,7 @@
 .carru{
     height: 25em;
     .carruColor{
-        color: rgb(236, 241, 236);
+        color:map-get($estilos , color ); 
     background-color: gray;
     opacity: 0.8;
     display: inline block;

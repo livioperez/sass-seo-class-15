@@ -1,11 +1,11 @@
 .repa{
-    background-image: radial-gradient( rgb(95, 137, 168), rgb(215, 217, 224));
+    background-image:map-get($estilos , colorPagina ); 
     color: azure;
     text-shadow: 5px 5px 5px gray;
     padding: 10px;
     margin: 10px;
-    background-color: #0093E9;
-background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-color:map-get($estilos , bc-repa);
+background-image: map-get($estilos , bcimage-repa );
 
     
 }
@@ -17,8 +17,8 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     box-shadow: 11px 11px 11px -3px rgba(0,0,0,0.56);
 -webkit-box-shadow: 11px 11px 11px -3px rgba(0,0,0,0.56);
 -moz-box-shadow: 11px 11px 11px -3px rgba(0,0,0,0.56);
-background-color: #0093E9;
-background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+background-color: map-get($estilos , bc-repa);
+background-image: map-get($estilos , bc-repa);
 
 }
 .poto{
@@ -33,8 +33,8 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     border: solid 1px black;
     margin: 20px;
     padding: 10px;
-    background-color: #0093E9;
-background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-color: map-get($estilos , bc-repa);
+background-image: map-get($estilos , bc-repa);
 
    
     box-shadow: 14px 20px 14px -6px rgba(0,0,0,0.53);

@@ -9,5 +9,3 @@
     margin: 20px;
     padding: 20px;
 }
-.tracking-in-contract-bck{animation:tracking-in-contract-bck 1.5s cubic-bezier(.215,.61,.355,1.000) 1s both}
-@keyframes tracking-in-contract-bck{0%{letter-spacing:1em;transform:translateZ(400px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0);opacity:1}}

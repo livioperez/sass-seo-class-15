@@ -1,4 +1,3 @@
-/*esto es un comentario*/
 .encabezado {
   background-image: linear-gradient(#467192, #d7d9e0); }
   .encabezado h1 {
@@ -21,10 +20,14 @@
     animation-name: aparecer;
     animation-iteration-count: infinite; }
 
+.clienHeight {
+  height: 22em;
+  width: 100%; }
+
 .carru {
   height: 25em; }
   .carru .carruColor {
-    color: #ecf1ec;
+    color: aliceblue;
     background-color: gray;
     opacity: 0.8;
     display: inline block; }
@@ -53,20 +56,6 @@
   margin: 20px;
   padding: 20px; }
 
-.tracking-in-contract-bck {
-  animation: tracking-in-contract-bck 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) 1s both; }
-
-@keyframes tracking-in-contract-bck {
-  0% {
-    letter-spacing: 1em;
-    transform: translateZ(400px);
-    opacity: 0; }
-  40% {
-    opacity: .6; }
-  100% {
-    transform: translateZ(0);
-    opacity: 1; } }
-
 .trnsporteFoto {
   display: flex;
   flex-direction: column;
@@ -86,11 +75,6 @@
 .input:focus {
   transform: scale(1.5, 1.5);
   margin-left: 110px; }
-
-.scale {
-  transition: all 1s; }
-  .scale .scale:hover {
-    transform: scale(1.25); }
 
 .dat {
   width: 100%;
@@ -116,7 +100,7 @@ div img .email {
   padding: 10px; }
 
 .repa {
-  background-image: radial-gradient(#5f89a8, #d7d9e0);
+  background-image: linear-gradient(#467192, #d7d9e0);
   color: azure;
   text-shadow: 5px 5px 5px gray;
   padding: 10px;
@@ -132,7 +116,7 @@ div img .email {
   -webkit-box-shadow: 11px 11px 11px -3px rgba(0, 0, 0, 0.56);
   -moz-box-shadow: 11px 11px 11px -3px rgba(0, 0, 0, 0.56);
   background-color: #0093E9;
-  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); }
+  background-image: #0093E9; }
 
 .poto {
   height: 6.7em;
@@ -146,13 +130,42 @@ div img .email {
   margin: 20px;
   padding: 10px;
   background-color: #0093E9;
-  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  background-image: #0093E9;
   box-shadow: 14px 20px 14px -6px rgba(0, 0, 0, 0.53);
   -webkit-box-shadow: 14px 20px 14px -6px rgba(0, 0, 0, 0.53);
   -moz-box-shadow: 14px 20px 14px -6px rgba(0, 0, 0, 0.53); }
 
 .btnrepa {
   width: 90%; }
+
+.tracking-in-contract-bck {
+  animation: tracking-in-contract-bck 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) 1s both; }
+
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px);
+    opacity: 0; }
+  40% {
+    opacity: .6; }
+  100% {
+    transform: translateZ(0);
+    opacity: 1; } }
+
+.scale {
+  transition: all 1s; }
+  .scale .scale:hover {
+    transform: scale(1.25); }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.input:focus {
+  transform: scale(1.5, 1.5);
+  margin-left: 110px; }
 
 .logo {
   position: absolute;

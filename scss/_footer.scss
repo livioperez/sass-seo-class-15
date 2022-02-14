@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     font-size: 20px;
-    background-image: linear-gradient( rgb(70, 113, 146), rgb(215, 217, 224));
+    background-image: map-get($estilos , colorPagina);
     height: 5em;
     .redes{
         display: flex;
